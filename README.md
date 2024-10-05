@@ -20,9 +20,9 @@ After installation run the following commands from your terminal.
 
 You will get a response from the terminal similar to the following:
 
-Captcha required for verification, use --captcha CAPTCHA
+*Captcha required for verification, use --captcha CAPTCHA
 To get the token, go to https://signalcaptchas.org/registration/generate.html
-After solving the captcha, right-click on the "Open Signal" link and copy the link.
+After solving the captcha, right-click on the "Open Signal" link and copy the link.*
 
 Open the url in your browser and pass the Captcha check.
 There will be a link on the page "Open Signal".
