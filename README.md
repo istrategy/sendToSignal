@@ -29,11 +29,14 @@ There will be a link on the page "Open Signal".
 Right-click on the link and copy it. You will need it for the next step.
 [copied captcha]
 Run the following in your terminal:
+
 ./signal-cli -u [yourcellnumber] register --captcha [copied captcha]
 
 Wait for the Signal SMS verification code that will be sent to your cell.
 [smscode]
+
 Run:
+
 ./signal-cli -u  [yourcellnumber] verify [smscode]
 
 ## install your Python Virtual environment
@@ -41,19 +44,29 @@ If you are using PyCharm it can be installed automatically.
 
 ## create a .env file
 Create a .env file in the root of the project (linux)
+
 Run:
+
 python3 -m venv .venv
+
 source .venv/bin/activate
+
 pip install -r requirements.txt
 
 # Usage 
+
 run the main.py file from the terminal. 
+
 python main.py
 
 # Contact me
+
 For any suggestions contact me:
+
 Gert van Eeden
+
 info@itinnovate.co.za
+
 https://www.linkedin.com/in/gertvaneeden/
 
 
