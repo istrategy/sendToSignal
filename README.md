@@ -40,18 +40,14 @@ Run:
 ./signal-cli -u  [yourcellnumber] verify [smscode]
 
 ## install your Python Virtual environment
-If you are using PyCharm it can be installed automatically.
+Run:
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
 
 ## create a .env file
 Create a .env file in the root of the project (linux)
-
-Run:
-
-python3 -m venv .venv
-
-source .venv/bin/activate
-
-pip install -r requirements.txt
+update the .env variables from the .env-example file.
 
 # Usage 
 
