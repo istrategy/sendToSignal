@@ -15,8 +15,8 @@ Install it on your system. (You might need to install a later version of Java to
 You also need a Signal account. Signal can only be used on one device at a time. I used an old sim card for the signal server. Ensure that your sim card is active on your cell. In the registration process Signal will send an SMS to the sim card. You will have to enter the code from signal to activate Signal on your server.
 ## Verify and register your number on the system
 After installation run the following commands from your terminal.
-./signal-cli -u <yourcellnumber> register
-(The format for <yourcellnumber> will be +<country code><the last 9 digits of your cell number>)
+./signal-cli -u [yourcellnumber] register
+(The format for [yourcellnumber] will be +[country code][the last 9 digits of your cell number])
 
 You will get a response from the terminal similar to the following:
 
@@ -27,14 +27,14 @@ After solving the captcha, right-click on the "Open Signal" link and copy the li
 Open the url in your browser and pass the Captcha check.
 There will be a link on the page "Open Signal".
 Right-click on the link and copy it. You will need it for the next step.
-<copied captcha>
+[copied captcha]
 Run the following in your terminal:
-./signal-cli -u <yourcellnumber> register --captcha <copied captcha>
+./signal-cli -u [yourcellnumber] register --captcha [copied captcha]
 
 Wait for the Signal SMS verification code that will be sent to your cell.
-<smscode>
+[smscode]
 Run:
-./signal-cli -u  <yourcellnumber> verify <smscode>
+./signal-cli -u  [yourcellnumber] verify [smscode]
 
 ## install your Python Virtual environment
 If you are using PyCharm it can be installed automatically.
